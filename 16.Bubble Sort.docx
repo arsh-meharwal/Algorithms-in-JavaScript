@@ -1,3 +1,7 @@
 Just Like the name, in bubble sorting the biggest value in an array bubbles out to the top(End of array).
 It is a simple sorting algo where we compares the value of 1st index to all the indexes sequentially.
-If we found for say 4th index of an array to be greater than 1st
+If we found for say 4th index of an array to be less than 1st.If 1st > 4th index 
+Swaps 4th with 1st.
+Now runs comparisons from 2nd index(i) with all the indexes(j).
+Small values keeps getting Pushed back.
+Greater values keeps getting promoted Forward.
